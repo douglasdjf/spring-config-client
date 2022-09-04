@@ -24,3 +24,7 @@
     config:
       profile: hml
 ```
+
+
+### Para que alguma alteração em tempo de execução seja refletida na aplicação cliente é necessário fazer uma requisição simples do tipo POST para :http://localhost:8080/actuator/refresh
+Com isso, o spring config server vai atualizar e buscar as configurações do github
